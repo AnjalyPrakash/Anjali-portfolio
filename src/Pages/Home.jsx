@@ -17,7 +17,9 @@ function Home() {
                             <h1 className='ms-2' style={{ fontWeight: '800' }}>I'M ANJALY PRAKASH</h1>
                         </div>
                         <h2 className='fw-bold text-secondary ms-5 mt-3' style={{ fontWeight: '900' }}>WEB DEVELOPER</h2>
-                        <p className='ms-5 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat placeat, sapiente minima provident nobis delectus quas labore doloremque sequi, aperiam odio harum obcaecati id at magnam eius hic laborum.</p>
+                        <p className='ms-5 mt-4'>I'm Anjaly Prakash, a BCA graduate from SS College, Poothotta, with specialized MERN stack training from Luminar Technolab. Proficient in HTML, CSS, Bootstrap, JavaScript, React, Node, Express, and MongoDB, I led the development of an Event Management system, showcasing my ability to create robust, user-friendly applications. Currently, I'm expanding my skills through a WordPress Internship at PotterWheel Media.
+
+                        </p>
                         <div className="row">
                             <div className="col-md-1">
 
