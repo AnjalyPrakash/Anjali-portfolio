@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+*{
+  font-family: "Aclonica", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.square-background {
+  display: inline-block; 
+  width: 40px; 
+  height: 40px; 
+  background-color: #333; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 4px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.square-background i {
+  max-width: 100%; 
+  max-height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.square-background i:hover{
+  color: orange;
+}
+
+.horizontal-line{
+  width: 45px; 
+  height: 6px;
+  background-color: #FFA500; 
+  margin: 20px 0; 
+  border-radius: 10px;
+}
+
+.horizontal-line2{
+  width: 70px; 
+  height: 6px;
+  background-color: #ff0303; 
+  border-radius: 10px;
+}
+
+button{
+  height: 70px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.icon-container {
+  position: fixed; /* Keeps the icons fixed while scrolling */
+  top: 50%; /* Center the icons vertically */
+  right: 40px; /* Position the icons 20px from the right end */
+  transform: translateY(-50%); /* Center the icons vertically */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.vertical-line{
+  width: 2px;
+  height: 150px;
+  background-color: rgb(235, 166, 19);
+}
+
+.vertical-line2{
+  width: 2px;
+  height: 50px;
+  background-color: rgb(235, 166, 19);
+}
+
+
+.portfolio-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-image {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 166, 0); /* Orange color with 70% opacity */
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.portfolio-image-container:hover .overlay {
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlay-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.links :hover{
+  color: #FFA500;
+}
+
+
+.contact i:hover{
+  color: #FFA500;
+}
+
+.nav:hover p{
+  color: #78c617;
 }

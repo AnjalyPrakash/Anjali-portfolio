@@ -1,0 +1,1 @@
+export const baseURL='https://anjaly-portfolio-backend.onrender.com'
