@@ -67,7 +67,7 @@ function Contact() {
                             <i class="fa-solid fa-square-phone fa-2x me-3 text-warning"></i>
                             <div className='flex-column'>
                                 <h5 className='text-secondary ms-3'>CALL ME</h5>
-                                <h6>anjalyprakaash@gmail.com</h6>
+                                <h6>+91 - 7012664763</h6>
                             </div>
                         </div>
                         <div className="contact ms-5 mb-3">
