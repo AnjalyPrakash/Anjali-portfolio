@@ -6,7 +6,7 @@ function Restaurant() {
     return (
         <Container>
             <div className='mt-5 mb-5'>
-                <h2 className='text-center text-danger mt-4 mb-5'>E-CART</h2>
+                <h2 className='text-center text-danger mt-4 mb-5'>RESTAURANT WEBSITE</h2>
                 <Row>
                     <Col md={4}>
                         <img src={Resto} style={{ height: '300px', width: '100%' }} alt="no image" />
