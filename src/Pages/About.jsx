@@ -65,7 +65,7 @@ function About() {
                             <h5 className='mt-4'>HTML</h5>
                         </Col>
                         <Col md={3} className='mt-4 d-flex justify-content-center align-items-center flex-column'>
-                            <ProgressWithLabel value={77} />
+                            <ProgressWithLabel value={63} />
                             <h5 className='mt-4'>CSS</h5>
                         </Col>
                         <Col md={3} className='mt-4 d-flex justify-content-center align-items-center flex-column'>
