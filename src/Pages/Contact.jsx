@@ -21,10 +21,10 @@ function Contact() {
         }
         else {
             const result = await contactAPI(contact)
-            console.log(result);
+            // console.log(result);
             if (result.status >= 200 || result.status < 300) {
                 const result = await contactAPI(contact)
-                console.log(result.data);
+                // console.log(result.data);
                 toast.success('Message Sent')
             }
             else {
@@ -35,7 +35,7 @@ function Contact() {
     }
 
 
-    console.log(contact);
+    // console.log(contact);
 
     return (
         <>
