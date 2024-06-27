@@ -95,7 +95,7 @@ function About() {
                             <h5 className='mt-4'>MONGO DB</h5>
                         </Col>
                     </Row>
-                    <Row className='mt-5 mb-5'>
+                    {/* <Row className='mt-5 mb-5'>
                         <Col md={4}>
                         </Col>
                         <Col md={4} className='mt-4 d-flex justify-content-center align-items-center flex-column'>
@@ -104,13 +104,13 @@ function About() {
                         </Col>
                         <Col md={4}>
                         </Col>
-                    </Row>
+                    </Row> */}
                 </div>
 
                 {/* experience */}
                 <div className='mb-5 mt-5'>
                     <h2 className='text-center mb-5 text-danger'>EXPERIENCE</h2>
-                    <Row>
+                    {/* <Row>
                         <Col md={2} className='d-flex justify-content-center align-items-center flex-column'>
                             <i className="fa-solid fa-briefcase fa-2x text-warning text-center"></i>
                             <div className='vertical-line '></div>
@@ -124,7 +124,7 @@ function About() {
                                 <li>Regularly updated website content, including writing and publishing blog posts, optimizing them for SEO and user engagement.</li>
                             </ul>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <Row className='mt-3 '>
                         <Col md={2} className='d-flex justify-content-center align-items-center flex-column'>
                             <i className="fa-solid fa-briefcase fa-2x text-warning text-center"></i>

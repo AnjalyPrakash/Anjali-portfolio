@@ -34,9 +34,6 @@ function Contact() {
 
     }
 
-
-    // console.log(contact);
-
     return (
         <>
             <div className='container mb-5'>
