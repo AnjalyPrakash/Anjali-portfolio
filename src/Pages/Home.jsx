@@ -41,7 +41,7 @@ function Home() {
                             </div>
                             <div className="col-md-1"></div>
                         </div>
-                        <a href='https://drive.google.com/file/d/1mBpDw2GpEPa-oRKtogoqu0-ZHy1rKzgv/view?usp=sharing' className='text-decoration-none' target='_blank'><button className=' d-flex justify-content-center align-items-center btn ms-5 btn-outline-warning mb-5'>Download CV</button></a>
+                        <a href='https://drive.google.com/file/d/19DApU6MOkAwVwXysXyRLkE7R6uIqK7_d/view?usp=sharing' className='text-decoration-none' target='_blank'><button className=' d-flex justify-content-center align-items-center btn ms-5 btn-outline-warning mb-5'>Download CV</button></a>
                     </Col>
                     <Col md={2} className='mb-5'>
                     </Col>
