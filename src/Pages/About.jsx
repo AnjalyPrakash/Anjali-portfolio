@@ -116,7 +116,22 @@ function About() {
                             <div className='vertical-line '></div>
                         </Col>
                         <Col md={10}>
-                            <h5>2024 APRIL - PRESENT</h5>
+                            <h5>2024 JULY - PRESENT</h5>
+                            <h4><span className='text-danger'>Frontend Developer Intern</span> - SEATTLE NEW MEDIA</h4>
+                            {/* <ul>
+                                <li>Developed and launched multiple WordPress websites from scratch, ensuring responsive design and optimal user experience.</li>
+                                <li>Created and customized WordPress plugins to enhance website functionality and meet specific client needs.</li>
+                                <li>Regularly updated website content, including writing and publishing blog posts, optimizing them for SEO and user engagement.</li>
+                            </ul> */}
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col md={2} className='d-flex justify-content-center align-items-center flex-column'>
+                            <i className="fa-solid fa-briefcase fa-2x text-warning text-center"></i>
+                            <div className='vertical-line '></div>
+                        </Col>
+                        <Col md={10}>
+                            <h5>2024 APRIL - 2024 JULY</h5>
                             <h4><span className='text-danger'>WordPress Developer Intern</span> - POTTERSWHEEL MEDIA</h4>
                             <ul>
                                 <li>Developed and launched multiple WordPress websites from scratch, ensuring responsive design and optimal user experience.</li>
